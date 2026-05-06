@@ -1,0 +1,37 @@
+# Extension build
+extension/dist/
+extension/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+
+# Project
+logs/
+data/
+.tmp/
+.cache/
+output/
+*.log
+.droid/kilo_usage.jsonl
+.droid/reviews/
+.droid/kilo_models_cache.json
+.droid/.kilo_cache_last_refresh
+.droid/docs_queue/
+.droid/docs_log/
+.droid/traycer-reports/*.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

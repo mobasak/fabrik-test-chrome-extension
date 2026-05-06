@@ -1,0 +1,15 @@
+{
+  "name": "fabrik-test-chrome-extension-extension",
+  "version": "1.0.0",
+  "description": "proof-run dummy for chrome-extension - Browser Extension",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.28",
+    "@types/chrome": "^0.0.254",
+    "typescript": "^5.3.3",
+    "vite": "^5.4.0"
+  }
+}
